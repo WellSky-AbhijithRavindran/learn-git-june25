@@ -1,8 +1,8 @@
-dcl-s var01 packed(2:0) inz;
-dcl-s var02 packed(2:0) inz;
-dcl-s var03 packed(2:0) inz;
+dcl-s addend01 packed(3:0) inz;
+dcl-s addend02 packed(3:0) inz;
+dcl-s sum packed(4:0) inz;
 
-var03 = var01 + var02;
-dsply var03;
+sum = addend01 + addend02;
+dsply sum;
 
 *inLr = *on;
