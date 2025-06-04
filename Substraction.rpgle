@@ -1,7 +1,7 @@
-dcl-s var01 packed(2:0) inz;
-dcl-s var02 packed(2:0) inz;
-dcl-s var03 packed(2:0) inz;
+dcl-s minuend packed(2:0) inz;
+dcl-s substrahend packed(2:0) inz;
+dcl-s difference packed(2:0) inz;
 
-var03 = var02 - var02;
+difference = minuend - substrahend;
 
 *inLr = *on;
